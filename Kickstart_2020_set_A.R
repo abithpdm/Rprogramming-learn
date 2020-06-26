@@ -5,17 +5,18 @@ while (testcases>0)
   constraints<-as.integer(strsplit(readline()," ")[[1]])
   prices<-as.integer(strsplit(readline()," ")[[1]])
   sortedprice <-sort(prices)
-  count<-0
   balance<-constraints[2]
-  for(i in as.integer(length(prices)))
+  for(i in seq_along(prices))
   {
     if(sortedprice[i]<=balance)
-      {count<-count+1
-      balance<-balance-sortedprice[i]}
-    else
-      {break}
+      {count<-as.integer(count+1)
+      balance<-balance-sortedprice[i]
+      }
+    
   }
   print(count)
+  testcases<-testcases-1
+  count<-0
     
 }
 
