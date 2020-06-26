@@ -1,0 +1,17 @@
+Breadth-First Search Algorithm
+
+The Breadth-first search algorithm is an algorithm used to solve the shortest path problem in a graph without edge weights (i.e. a graph where all nodes are the same “distance” from each other, and they are either connected or not). This means that given a number of nodes and the edges between them, the Breadth-first search algorithm is finds the shortest path from the specified start node to all other nodes. Nodes are sometimes referred to as vertices (plural of vertex) - here, we’ll call them nodes.
+Description of the Algorithm
+
+The basic principle behind the Breadth-first search algorithm is to take the current node (the start node in the beginning) and then add all of its neighbors that we haven’t visited yet to a queue. Continue this with the next node in the queue (in a queue that is the “oldest” node). Before we add a node to the queue, we set its distance to the distance of the current node plus 1 (since all edges are weighted equally), with the distance to the start node being 0. This is repeated until there are no more nodes in the queue (all nodes are visited).
+
+In more detail, this leads to the following Steps:
+
+    1.Initialize the distance to the starting node as 0. The distances to all other node do not need to       be initialized since every node is visited exactly once.
+    2.Set all nodes to “unvisited”
+    3.Add the first node to the queue and label it visited.
+    4.While there are nodes in the queue:
+    
+          1.Take a node out of the queue
+          2.For all nodes next to it that we haven’t visited yet, add them to the queue, set their                  distance to the distance to the current node plus 1, and set them as “visited”
+    In the end, the distances to all nodes will be correct.
