@@ -1,4 +1,3 @@
-
 for (i in testcase)
 {
   initiator <-1
