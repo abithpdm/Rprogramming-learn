@@ -1,3 +1,4 @@
+testcase=readline(prompt="enter")
 for (i in testcase)
 {
   initiator <-1
@@ -11,4 +12,3 @@ for (i in testcase)
  }
  splittedstring[[initiator]]
 }
-testcase<-readline(prompt="enter")
