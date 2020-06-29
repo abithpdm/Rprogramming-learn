@@ -1,6 +1,8 @@
 testcase=readline(prompt="enter")
+
 for (i in testcase)
-{
+
+   {
   initiator <-1
   string <-as.character(readline())
  splittedstring<-strsplit(string,"")
