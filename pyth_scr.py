@@ -1,3 +1,4 @@
+#convert decimal to binary
 testcase = int(input())
 for i in range(testcase) :
      count=0
