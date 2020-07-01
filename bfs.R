@@ -37,7 +37,7 @@ bfs <- function(graph,start){
     }
   }
     cat("No more nodes in the queue. Distances: ", distances, "\n")
-  return (distances)
+   return (distances)
 
   }
   
