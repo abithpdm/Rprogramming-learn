@@ -5,7 +5,7 @@ Description of the Algorithm
 
     The basic principle behind the Breadth-first search algorithm is to take the current node (the start node in the beginning) and then add all of its neighbors that we haven’t visited yet to a queue. Continue this with the next node in the queue (in a queue that is the “oldest” node). Before we add a node to the queue, we set its distance to the distance of the current node plus 1 (since all edges are weighted equally), with the distance to the start node being 0. This is repeated until there are no more nodes in the queue (all nodes are visited).
 
-In more detail, this leads to the following Steps:
+In more detail, this leads to the following Steps :
 
     1.Initialize the distance to the starting node as 0. The distances to all other node do not need to       be initialized since every node is visited exactly once.
     2.Set all nodes to “unvisited”
