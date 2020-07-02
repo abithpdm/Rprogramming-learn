@@ -7,7 +7,8 @@ Description of the Algorithm
 
 In more detail, this leads to the following Steps :
 
-    1.Initialize the distance to the starting node as 0. The distances to all other node do not need to       be initialized since every node is visited exactly once.
+    1.Initialize the distance to the starting node as 0. The distances to all 
+      other node do not need to be initialized since every node is visited exactly once.
     2.Set all nodes to “unvisited”
     3.Add the first node to the queue and label it visited.
     4.While there are nodes in the queue:
