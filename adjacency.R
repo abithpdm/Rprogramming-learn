@@ -4,7 +4,7 @@ for (i in testcase)
 
    {
      initiator <-1
-  string <-as.character(readline())
+     string <-as.character(readline())
   splittedstring<-strsplit(string,"")
   while(initiator!=length(string)){
    if(splittedstring[[initiator]]==splittedstring[[initiator+1]])
