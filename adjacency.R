@@ -1,4 +1,4 @@
-#prompt is used to display msg
+#prompt is used to display msg while entering input
 testcase=readline(prompt="enter")
 
 for (i in testcase)
