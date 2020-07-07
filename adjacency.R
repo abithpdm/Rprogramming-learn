@@ -9,9 +9,9 @@ for (i in testcase)
      splittedstring<-strsplit(string,"")
    while(initiator!=length(string)){
     if(splittedstring[[initiator]]==splittedstring[[initiator+1]])
-   {
+    {
       print("equal")
-   }
+    }
  }
   splittedstring[[initiator]]
 
