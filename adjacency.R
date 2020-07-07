@@ -9,9 +9,9 @@ for (i in testcase)
    while(initiator!=length(string)){
     if(splittedstring[[initiator]]==splittedstring[[initiator+1]])
    {
-     print("equal")
+      print("equal")
    }
  }
- splittedstring[[initiator]]
+  splittedstring[[initiator]]
 
  }
