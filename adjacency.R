@@ -1,3 +1,4 @@
+
 testcase=readline(prompt="enter")
 
 for (i in testcase)
