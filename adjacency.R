@@ -1,4 +1,4 @@
-
+#prompt is used to display msg
 testcase=readline(prompt="enter")
 
 for (i in testcase)
