@@ -13,6 +13,6 @@ for (i in testcase)
        print("equal")
     }
  }
-  splittedstring[[initiator]]
+   splittedstring[[initiator]]
 
  }
