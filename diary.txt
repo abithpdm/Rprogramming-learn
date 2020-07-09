@@ -4,4 +4,6 @@ This is text diary to note the changes and things i learned each day.
   
     install sql server in terminal
     install RMySQL in rstudio :
-        error in RMySQL installation in RStudio ->
+        error in RMySQL installation in RStudio -> resolved the issue by 
+                            installing RMySQL from system terminal using commend
+                            : sudo apt-get install r-cran-rmysql
