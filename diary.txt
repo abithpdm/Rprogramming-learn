@@ -1,1 +1,5 @@
 This is text diary to note the changes and things i learned each day.
+
+09-07-2020 : 
+  
+    install sql server in terminal
