@@ -15,4 +15,5 @@ length(allTables)
 query <- dbSendQuery(hg19,"select * from affyU133Plus2 where misMatches between 1 and 3")
 #in the abouve statement we send query to store remotely
 #the remotely stored data is the fetched in  query
+# dbclear(<queryname>) to clear the remote query from the server
 affyMis <- fetch(query); quantile(affyMis$misMatches)
