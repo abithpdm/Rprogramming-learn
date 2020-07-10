@@ -9,5 +9,7 @@ This is text diary to note the changes and things i learned each day.
                             : sudo apt-get install r-cran-rmysql
 
 10-07-2020 :
+       
+        connecting to genome project
 
         
