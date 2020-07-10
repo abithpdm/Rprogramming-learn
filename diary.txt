@@ -10,6 +10,7 @@ This is text diary to note the changes and things i learned each day.
 
 10-07-2020 :
        
-        connecting to genome project
+        connecting to genome project through myql comments
+        
 
         
