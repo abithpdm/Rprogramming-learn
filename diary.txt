@@ -14,5 +14,6 @@ This is text diary to note the changes and things i learned each day.
         accesing and reading hdf5 file 
         weebscrapping
         Reading data from API , httr
+        package reference : 
 
         
